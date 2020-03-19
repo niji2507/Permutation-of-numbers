@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>PermutationService.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">PermutationTestController (1) (Mar 18, 2020 5:57:41 PM)</a> &gt; <a href="../../index.html" class="el_group">permutation</a> &gt; <a href="../index.html" class="el_bundle">src/main/java</a> &gt; <a href="index.source.html" class="el_package">com.permutation.question.permutation</a> &gt; <span class="el_source">PermutationService.java</span></div><h1>PermutationService.java</h1><pre class="source lang-java linenums">package com.permutation.question.permutation;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.bind.DefaultValue;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.permuation.question.permutation.nodes.PermutationListNode;
+import com.permuation.question.permutation.nodes.PermutationNode;
+import com.permuation.question.permutation.nodes.ResponseNode;
+import com.permutaion.question.permutation.exception.InvalidPermutationInputException;
+
+@RestController
+<span class="fc" id="L23">public class PermutationService {</span>
+	
+	@Autowired
+	Process process;
+	
+	@PostMapping(&quot;/permutations/list&quot;)
+	public ResponseEntity&lt;ResponseNode&gt; getPermutationForAllInputs(@RequestBody PermutationListNode inputList) {
+		
+<span class="fc" id="L31">		ResponseNode response = null;</span>
+		try {
+<span class="fc bfc" id="L33" title="All 2 branches covered.">			if(inputList.getInput() == null) {</span>
+<span class="fc" id="L34">				throw new InvalidPermutationInputException(&quot;Payload is empty !!&quot;);</span>
+			}
+<span class="fc bfc" id="L36" title="All 2 branches covered.">			if(inputList.getInput().isEmpty()) {</span>
+<span class="fc" id="L37">				throw new InvalidPermutationInputException(&quot;Input is Empty or null. Provide a Valid input!&quot;);</span>
+			}
+<span class="fc" id="L39">			List&lt;Integer&gt; inputs = inputList.getInput();</span>
+<span class="fc" id="L40">			List&lt;PermutationNode&gt; resultList = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L41" title="All 2 branches covered.">			for(Integer input :  inputs) {				</span>
+<span class="fc" id="L42">				List&lt;Integer&gt; result = process.findPermutaionOfGivenInteger(input);</span>
+<span class="fc" id="L43">				PermutationNode permNode = new PermutationNode(input,result);</span>
+<span class="fc" id="L44">				resultList.add(permNode);</span>
+			}
+<span class="fc" id="L46">			PermutationListNode permListNode = new PermutationListNode(resultList.size(),inputs,resultList);</span>
+			
+<span class="fc" id="L48">			response = new ResponseNode(true,permListNode);</span>
+<span class="fc" id="L49">		}catch (InvalidPermutationInputException ex) {</span>
+<span class="fc" id="L50">			response = new ResponseNode(false,ex.getMessage());</span>
+<span class="fc" id="L51">			return new ResponseEntity&lt;&gt;(response, HttpStatus.PRECONDITION_FAILED);</span>
+		}
+<span class="fc" id="L53">		return new ResponseEntity&lt;&gt;(response, HttpStatus.ACCEPTED);</span>
+	}
+	
+	@GetMapping(&quot;/permutation/{inputstr}&quot;)
+	@Validated
+	public ResponseEntity&lt;ResponseNode&gt; getPermutationForInput(@DefaultValue(&quot;&quot;) @PathVariable String inputstr) {
+		
+<span class="fc" id="L60">		ResponseNode response = null;</span>
+		try {
+<span class="fc bfc" id="L62" title="All 2 branches covered.">			if(inputstr.equals(&quot; &quot;)) {</span>
+<span class="fc" id="L63">				throw new InvalidPermutationInputException(&quot;Input is empty !!&quot;);</span>
+			}
+<span class="fc bfc" id="L65" title="All 2 branches covered.">			if(!checkIsInteger(inputstr)) {</span>
+<span class="fc" id="L66">				throw new InvalidPermutationInputException(&quot;Input is not an Integer!!&quot;);</span>
+			}
+<span class="fc" id="L68">			Integer input = Integer.parseInt(inputstr);</span>
+<span class="fc" id="L69">			List&lt;PermutationNode&gt; resultList = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L70">			List&lt;Integer&gt; inputs = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L71">			inputs.add(input);</span>
+<span class="fc" id="L72">			List&lt;Integer&gt; result = process.findPermutaionOfGivenInteger(input);</span>
+<span class="fc" id="L73">			PermutationNode permNode = new PermutationNode(input,result);</span>
+<span class="fc" id="L74">			resultList.add(permNode);			</span>
+<span class="fc" id="L75">			PermutationListNode permListNode = new PermutationListNode(resultList.size(),inputs,resultList);			</span>
+<span class="fc" id="L76">			response = new ResponseNode(true,permListNode);</span>
+<span class="fc" id="L77">		}catch (InvalidPermutationInputException ex) {</span>
+<span class="fc" id="L78">			response = new ResponseNode(false,ex.getMessage());</span>
+<span class="fc" id="L79">			return new ResponseEntity&lt;&gt;(response, HttpStatus.PRECONDITION_FAILED);</span>
+<span class="fc" id="L80">		}catch(NumberFormatException ex) {</span>
+<span class="fc" id="L81">			response = new ResponseNode(false,&quot;Input integer is not with In  range or not a valid Integer &quot; + ex.toString());</span>
+<span class="fc" id="L82">			return new ResponseEntity&lt;&gt;(response, HttpStatus.PRECONDITION_FAILED);</span>
+		}
+<span class="fc" id="L84">		return new ResponseEntity&lt;&gt;(response, HttpStatus.ACCEPTED);</span>
+	}
+
+	private boolean checkIsInteger(String input) {		
+<span class="fc" id="L88">		int i = 0;</span>
+<span class="fc bfc" id="L89" title="All 2 branches covered.">		if (input.charAt(0) == '-') {</span>
+<span class="fc" id="L90">			i = 1;</span>
+		}
+<span class="fc bfc" id="L92" title="All 2 branches covered.">		for (int j = i; j &lt; input.length(); j++) {</span>
+<span class="fc bfc" id="L93" title="All 2 branches covered.">			if (!Character.isDigit(input.charAt(j)))</span>
+<span class="fc" id="L94">				return false;</span>
+		}
+
+<span class="fc" id="L97">		return true;</span>
+	}
+	
+	
+	
+	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.1.201803210924</span>PermutationTestController (1) (Mar 18, 2020 5:57:41 PM)</div></body></html>

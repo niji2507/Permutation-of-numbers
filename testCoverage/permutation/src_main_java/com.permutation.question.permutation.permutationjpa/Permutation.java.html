@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>Permutation.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">PermutationTestController (1) (Mar 18, 2020 5:57:41 PM)</a> &gt; <a href="../../index.html" class="el_group">permutation</a> &gt; <a href="../index.html" class="el_bundle">src/main/java</a> &gt; <a href="index.source.html" class="el_package">com.permutation.question.permutation.permutationjpa</a> &gt; <span class="el_source">Permutation.java</span></div><h1>Permutation.java</h1><pre class="source lang-java linenums">package com.permutation.question.permutation.permutationjpa;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+
+@Entity
+public class Permutation {
+	
+	@Id
+	private Integer input;
+	
+	@OneToMany(cascade = CascadeType.ALL,
+            fetch = FetchType.LAZY,
+            mappedBy = &quot;permutation&quot;)
+<span class="fc" id="L21">    private Set&lt;Outputval&gt; permval = new HashSet&lt;&gt;();</span>
+
+<span class="fc" id="L23">	public Permutation() {</span>
+		
+<span class="fc" id="L25">	}</span>
+	public Permutation(Integer input, Set&lt;Outputval&gt; permval) {
+<span class="fc" id="L27">		super();</span>
+<span class="fc" id="L28">		this.input = input;</span>
+<span class="fc" id="L29">		this.permval = permval;</span>
+<span class="fc" id="L30">	}</span>
+
+	/**
+	 * @return the input
+	 */
+	public Integer getInput() {
+<span class="fc" id="L36">		return input;</span>
+	}
+
+	/**
+	 * @param input the input to set
+	 */
+	public void setInput(Integer input) {
+<span class="fc" id="L43">		this.input = input;</span>
+<span class="fc" id="L44">	}</span>
+
+	/**
+	 * @return the permval
+	 */
+	public Set&lt;Outputval&gt; getPermval() {
+<span class="fc" id="L50">		return permval;</span>
+	}
+
+	/**
+	 * @param permval the permval to set
+	 */
+	public void setPermval(Set&lt;Outputval&gt; permval) {
+<span class="fc" id="L57">		this.permval = permval;</span>
+<span class="fc" id="L58">	}</span>
+	
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.1.201803210924</span>PermutationTestController (1) (Mar 18, 2020 5:57:41 PM)</div></body></html>

@@ -1,0 +1,284 @@
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:5:	CommentRequired: Class comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:5:	CommentRequired: Class comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:5:	DataClass: The class 'PermutationListNode' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:5:	DataClass: The class 'PermutationListNode' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:7:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:7:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:8:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:8:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:9:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:9:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:11:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:11:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:14:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:14:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:14:	MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:14:	MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:14:	MethodArgumentCouldBeFinal: Parameter 'permutationList' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:14:	MethodArgumentCouldBeFinal: Parameter 'permutationList' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:14:	MethodArgumentCouldBeFinal: Parameter 'size' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:14:	MethodArgumentCouldBeFinal: Parameter 'size' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:29:	MethodArgumentCouldBeFinal: Parameter 'size' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:29:	MethodArgumentCouldBeFinal: Parameter 'size' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:41:	MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:41:	MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:53:	MethodArgumentCouldBeFinal: Parameter 'permutationList' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationListNode.java:53:	MethodArgumentCouldBeFinal: Parameter 'permutationList' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:5:	CommentRequired: Class comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:5:	CommentRequired: Class comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:5:	DataClass: The class 'PermutationNode' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:5:	DataClass: The class 'PermutationNode' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:6:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:6:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:7:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:7:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:9:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:9:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:13:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:13:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:13:	MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:13:	MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:13:	MethodArgumentCouldBeFinal: Parameter 'permutations' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:13:	MethodArgumentCouldBeFinal: Parameter 'permutations' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:28:	MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:28:	MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:40:	MethodArgumentCouldBeFinal: Parameter 'permutations' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/PermutationNode.java:40:	MethodArgumentCouldBeFinal: Parameter 'permutations' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:3:	CommentRequired: Class comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:3:	CommentRequired: Class comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:3:	DataClass: The class 'ResponseNode' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=9)
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:3:	DataClass: The class 'ResponseNode' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=9)
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:4:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:4:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:5:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:5:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:6:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:6:	CommentRequired: Field comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:8:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:8:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:12:	MethodArgumentCouldBeFinal: Parameter 'permList' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:12:	MethodArgumentCouldBeFinal: Parameter 'permList' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:12:	MethodArgumentCouldBeFinal: Parameter 'success' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:12:	MethodArgumentCouldBeFinal: Parameter 'success' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:17:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:17:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:17:	MethodArgumentCouldBeFinal: Parameter 'failure' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:17:	MethodArgumentCouldBeFinal: Parameter 'failure' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:17:	MethodArgumentCouldBeFinal: Parameter 'reason' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:17:	MethodArgumentCouldBeFinal: Parameter 'reason' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:30:	MethodArgumentCouldBeFinal: Parameter 'success' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:30:	MethodArgumentCouldBeFinal: Parameter 'success' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:42:	MethodArgumentCouldBeFinal: Parameter 'permutation' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:42:	MethodArgumentCouldBeFinal: Parameter 'permutation' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:54:	MethodArgumentCouldBeFinal: Parameter 'reason' is not assigned and could be declared final
+src/main/java/com/permuation/question/permutation/nodes/ResponseNode.java:54:	MethodArgumentCouldBeFinal: Parameter 'reason' is not assigned and could be declared final
+src/main/java/com/permutaion/question/permutation/exception/InvalidPermutationInputException.java:3:	CommentRequired: Class comments are required
+src/main/java/com/permutaion/question/permutation/exception/InvalidPermutationInputException.java:3:	CommentRequired: Class comments are required
+src/main/java/com/permutaion/question/permutation/exception/InvalidPermutationInputException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permutaion/question/permutation/exception/InvalidPermutationInputException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permutation/question/permutation/PermutationApplication.java:7:	CommentRequired: Class comments are required
+src/main/java/com/permutation/question/permutation/PermutationApplication.java:7:	CommentRequired: Class comments are required
+src/main/java/com/permutation/question/permutation/PermutationApplication.java:7:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/permutation/question/permutation/PermutationApplication.java:7:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/permutation/question/permutation/PermutationApplication.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permutation/question/permutation/PermutationApplication.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permutation/question/permutation/PermutationApplication.java:9:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/PermutationApplication.java:9:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/PermutationService.java:32:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/permutation/question/permutation/PermutationService.java:32:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/permutation/question/permutation/PermutationService.java:35:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/PermutationService.java:35:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/PermutationService.java:41:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/permutation/question/permutation/PermutationService.java:41:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/permutation/question/permutation/PermutationService.java:42:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/permutation/question/permutation/PermutationService.java:42:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/permutation/question/permutation/PermutationService.java:42:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the process field if you want a default access modifier
+src/main/java/com/permutation/question/permutation/PermutationService.java:42:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the process field if you want a default access modifier
+src/main/java/com/permutation/question/permutation/PermutationService.java:57:	MethodArgumentCouldBeFinal: Parameter 'inputList' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/PermutationService.java:57:	MethodArgumentCouldBeFinal: Parameter 'inputList' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/PermutationService.java:59:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'responseEntity' (lines '59'-'80').
+src/main/java/com/permutation/question/permutation/PermutationService.java:59:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'responseEntity' (lines '59'-'80').
+src/main/java/com/permutation/question/permutation/PermutationService.java:59:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'responseEntity' (lines '59'-'84').
+src/main/java/com/permutation/question/permutation/PermutationService.java:59:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'responseEntity' (lines '59'-'84').
+src/main/java/com/permutation/question/permutation/PermutationService.java:60:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'response' (lines '60'-'77').
+src/main/java/com/permutation/question/permutation/PermutationService.java:60:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'response' (lines '60'-'77').
+src/main/java/com/permutation/question/permutation/PermutationService.java:60:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'response' (lines '60'-'84').
+src/main/java/com/permutation/question/permutation/PermutationService.java:60:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'response' (lines '60'-'84').
+src/main/java/com/permutation/question/permutation/PermutationService.java:65:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/permutation/question/permutation/PermutationService.java:65:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/permutation/question/permutation/PermutationService.java:71:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/main/java/com/permutation/question/permutation/PermutationService.java:71:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/main/java/com/permutation/question/permutation/PermutationService.java:72:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/permutation/question/permutation/PermutationService.java:72:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/permutation/question/permutation/PermutationService.java:77:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'response' (lines '77'-'79').
+src/main/java/com/permutation/question/permutation/PermutationService.java:77:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'response' (lines '77'-'79').
+src/main/java/com/permutation/question/permutation/PermutationService.java:80:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'responseEntity' (lines '80'-'82').
+src/main/java/com/permutation/question/permutation/PermutationService.java:80:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'responseEntity' (lines '80'-'82').
+src/main/java/com/permutation/question/permutation/PermutationService.java:97:	MethodArgumentCouldBeFinal: Parameter 'inputstr' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/PermutationService.java:97:	MethodArgumentCouldBeFinal: Parameter 'inputstr' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/PermutationService.java:99:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'responseEntity' (lines '99'-'119').
+src/main/java/com/permutation/question/permutation/PermutationService.java:99:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'responseEntity' (lines '99'-'119').
+src/main/java/com/permutation/question/permutation/PermutationService.java:99:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'responseEntity' (lines '99'-'126').
+src/main/java/com/permutation/question/permutation/PermutationService.java:99:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'responseEntity' (lines '99'-'126').
+src/main/java/com/permutation/question/permutation/PermutationService.java:100:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'response' (lines '100'-'116').
+src/main/java/com/permutation/question/permutation/PermutationService.java:100:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'response' (lines '100'-'116').
+src/main/java/com/permutation/question/permutation/PermutationService.java:100:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'response' (lines '100'-'126').
+src/main/java/com/permutation/question/permutation/PermutationService.java:100:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'response' (lines '100'-'126').
+src/main/java/com/permutation/question/permutation/PermutationService.java:102:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/permutation/question/permutation/PermutationService.java:102:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/permutation/question/permutation/PermutationService.java:116:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'response' (lines '116'-'118').
+src/main/java/com/permutation/question/permutation/PermutationService.java:116:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'response' (lines '116'-'118').
+src/main/java/com/permutation/question/permutation/PermutationService.java:119:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'responseEntity' (lines '119'-'122').
+src/main/java/com/permutation/question/permutation/PermutationService.java:119:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'responseEntity' (lines '119'-'122').
+src/main/java/com/permutation/question/permutation/PermutationService.java:122:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'responseEntity' (lines '122'-'124').
+src/main/java/com/permutation/question/permutation/PermutationService.java:122:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'responseEntity' (lines '122'-'124').
+src/main/java/com/permutation/question/permutation/PermutationService.java:132:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'positiveInt' (lines '132'-'135').
+src/main/java/com/permutation/question/permutation/PermutationService.java:132:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'positiveInt' (lines '132'-'135').
+src/main/java/com/permutation/question/permutation/PermutationService.java:133:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '133'-'139').
+src/main/java/com/permutation/question/permutation/PermutationService.java:133:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '133'-'139').
+src/main/java/com/permutation/question/permutation/PermutationService.java:139:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '139'-'139').
+src/main/java/com/permutation/question/permutation/PermutationService.java:139:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'result' (lines '139'-'139').
+src/main/java/com/permutation/question/permutation/Process.java:18:	CommentRequired: Class comments are required
+src/main/java/com/permutation/question/permutation/Process.java:18:	CommentRequired: Class comments are required
+src/main/java/com/permutation/question/permutation/Process.java:20:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the Process constructor if you want a default access modifier
+src/main/java/com/permutation/question/permutation/Process.java:20:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the Process constructor if you want a default access modifier
+src/main/java/com/permutation/question/permutation/Process.java:20:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/permutation/question/permutation/Process.java:20:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/permutation/question/permutation/Process.java:25:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/permutation/question/permutation/Process.java:25:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/permutation/question/permutation/Process.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/permutation/question/permutation/Process.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/permutation/question/permutation/Process.java:26:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the permJpaRepo field if you want a default access modifier
+src/main/java/com/permutation/question/permutation/Process.java:26:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the permJpaRepo field if you want a default access modifier
+src/main/java/com/permutation/question/permutation/Process.java:26:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/Process.java:26:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/Process.java:26:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/permutation/question/permutation/Process.java:26:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/permutation/question/permutation/Process.java:30:	AvoidReassigningParameters: Avoid reassigning parameters such as 'input'
+src/main/java/com/permutation/question/permutation/Process.java:30:	AvoidReassigningParameters: Avoid reassigning parameters such as 'input'
+src/main/java/com/permutation/question/permutation/Process.java:30:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the findPermutaionOfGivenInteger method if you want a default access modifier
+src/main/java/com/permutation/question/permutation/Process.java:30:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the findPermutaionOfGivenInteger method if you want a default access modifier
+src/main/java/com/permutation/question/permutation/Process.java:30:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/permutation/question/permutation/Process.java:30:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/permutation/question/permutation/Process.java:31:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'negativeNumber' (lines '31'-'42').
+src/main/java/com/permutation/question/permutation/Process.java:31:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'negativeNumber' (lines '31'-'42').
+src/main/java/com/permutation/question/permutation/Process.java:31:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'negativeNumber' (lines '31'-'60').
+src/main/java/com/permutation/question/permutation/Process.java:31:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'negativeNumber' (lines '31'-'60').
+src/main/java/com/permutation/question/permutation/Process.java:32:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:32:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:34:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/permutation/question/permutation/Process.java:34:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/permutation/question/permutation/Process.java:34:	LocalVariableCouldBeFinal: Local variable 'perm' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:34:	LocalVariableCouldBeFinal: Local variable 'perm' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:35:	LocalVariableCouldBeFinal: Local variable 'resultVal' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:35:	LocalVariableCouldBeFinal: Local variable 'resultVal' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:36:	LocalVariableCouldBeFinal: Local variable 'val' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:36:	LocalVariableCouldBeFinal: Local variable 'val' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:44:	LocalVariableCouldBeFinal: Local variable 'strInput' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:44:	LocalVariableCouldBeFinal: Local variable 'strInput' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:45:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/permutation/question/permutation/Process.java:45:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/permutation/question/permutation/Process.java:46:	LocalVariableCouldBeFinal: Local variable 'perm' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:46:	LocalVariableCouldBeFinal: Local variable 'perm' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:48:	LocalVariableCouldBeFinal: Local variable 'outputVallist' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:48:	LocalVariableCouldBeFinal: Local variable 'outputVallist' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:49:	LocalVariableCouldBeFinal: Local variable 'ip' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:49:	LocalVariableCouldBeFinal: Local variable 'ip' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:50:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/permutation/question/permutation/Process.java:50:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/permutation/question/permutation/Process.java:50:	LocalVariableCouldBeFinal: Local variable 'value' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:50:	LocalVariableCouldBeFinal: Local variable 'value' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:62:	AvoidReassigningParameters: Avoid reassigning parameters such as 'strInput'
+src/main/java/com/permutation/question/permutation/Process.java:62:	AvoidReassigningParameters: Avoid reassigning parameters such as 'strInput'
+src/main/java/com/permutation/question/permutation/Process.java:62:	AvoidReassigningParameters: Avoid reassigning parameters such as 'strInput'
+src/main/java/com/permutation/question/permutation/Process.java:62:	AvoidReassigningParameters: Avoid reassigning parameters such as 'strInput'
+src/main/java/com/permutation/question/permutation/Process.java:62:	MethodArgumentCouldBeFinal: Parameter 'high' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:62:	MethodArgumentCouldBeFinal: Parameter 'high' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:62:	MethodArgumentCouldBeFinal: Parameter 'isNegativeNumber' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:62:	MethodArgumentCouldBeFinal: Parameter 'isNegativeNumber' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:62:	MethodArgumentCouldBeFinal: Parameter 'low' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:62:	MethodArgumentCouldBeFinal: Parameter 'low' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:62:	MethodArgumentCouldBeFinal: Parameter 'result' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:62:	MethodArgumentCouldBeFinal: Parameter 'result' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:65:	LocalVariableCouldBeFinal: Local variable 'num' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:65:	LocalVariableCouldBeFinal: Local variable 'num' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:80:	MethodArgumentCouldBeFinal: Parameter 'high' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:80:	MethodArgumentCouldBeFinal: Parameter 'high' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:80:	MethodArgumentCouldBeFinal: Parameter 'low' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:80:	MethodArgumentCouldBeFinal: Parameter 'low' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:80:	MethodArgumentCouldBeFinal: Parameter 'strInput' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:80:	MethodArgumentCouldBeFinal: Parameter 'strInput' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:84:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'charArray' (lines '84'-'85').
+src/main/java/com/permutation/question/permutation/Process.java:84:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'charArray' (lines '84'-'85').
+src/main/java/com/permutation/question/permutation/Process.java:89:	MethodArgumentCouldBeFinal: Parameter 'strInput' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:89:	MethodArgumentCouldBeFinal: Parameter 'strInput' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:90:	LocalVariableCouldBeFinal: Local variable 'length' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:90:	LocalVariableCouldBeFinal: Local variable 'length' could be declared final
+src/main/java/com/permutation/question/permutation/Process.java:91:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'charArr' (lines '91'-'93').
+src/main/java/com/permutation/question/permutation/Process.java:91:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'charArr' (lines '91'-'93').
+src/main/java/com/permutation/question/permutation/Process.java:93:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'charArr' (lines '93'-'93').
+src/main/java/com/permutation/question/permutation/Process.java:93:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'charArr' (lines '93'-'93').
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:13:	CommentRequired: Class comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:13:	CommentRequired: Class comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:13:	DataClass: The class 'Outputval' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:13:	DataClass: The class 'Outputval' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:17:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:17:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:21:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:21:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:23:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:23:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:25:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:25:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:25:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:25:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:29:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:29:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:29:	MethodArgumentCouldBeFinal: Parameter 'output' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:29:	MethodArgumentCouldBeFinal: Parameter 'output' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:29:	MethodArgumentCouldBeFinal: Parameter 'permutation' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:29:	MethodArgumentCouldBeFinal: Parameter 'permutation' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:45:	MethodArgumentCouldBeFinal: Parameter 'eventId' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:45:	MethodArgumentCouldBeFinal: Parameter 'eventId' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:59:	MethodArgumentCouldBeFinal: Parameter 'permutation' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:59:	MethodArgumentCouldBeFinal: Parameter 'permutation' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:73:	MethodArgumentCouldBeFinal: Parameter 'combination' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Outputval.java:73:	MethodArgumentCouldBeFinal: Parameter 'combination' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:13:	CommentRequired: Class comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:13:	CommentRequired: Class comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:13:	DataClass: The class 'Permutation' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:13:	DataClass: The class 'Permutation' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:16:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:16:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:21:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:21:	CommentRequired: Field comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:23:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:23:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:23:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:23:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:26:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:26:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:26:	MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:26:	MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:26:	MethodArgumentCouldBeFinal: Parameter 'permval' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:26:	MethodArgumentCouldBeFinal: Parameter 'permval' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:42:	MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:42:	MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:56:	MethodArgumentCouldBeFinal: Parameter 'permval' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/Permutation.java:56:	MethodArgumentCouldBeFinal: Parameter 'permval' is not assigned and could be declared final
+src/main/java/com/permutation/question/permutation/permutationjpa/PermutationJpaRepo.java:7:	CommentRequired: Class comments are required
+src/main/java/com/permutation/question/permutation/permutationjpa/PermutationJpaRepo.java:7:	CommentRequired: Class comments are required
+src/main/java/com/permutation/question/permutation/swaggerdoc/SwaggerConfig.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/permutation/question/permutation/swaggerdoc/SwaggerConfig.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/permutation/question/permutation/swaggerdoc/SwaggerConfig.java:15:	CommentRequired: Class comments are required
+src/main/java/com/permutation/question/permutation/swaggerdoc/SwaggerConfig.java:15:	CommentRequired: Class comments are required
+src/main/java/com/permutation/question/permutation/swaggerdoc/SwaggerConfig.java:17:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/permutation/question/permutation/swaggerdoc/SwaggerConfig.java:17:	CommentRequired: Public method and constructor comments are required

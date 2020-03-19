@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>Process.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">PermutationTestController (1) (Mar 18, 2020 5:57:41 PM)</a> &gt; <a href="../../index.html" class="el_group">permutation</a> &gt; <a href="../index.html" class="el_bundle">src/main/java</a> &gt; <a href="index.source.html" class="el_package">com.permutation.question.permutation</a> &gt; <span class="el_source">Process.java</span></div><h1>Process.java</h1><pre class="source lang-java linenums">package com.permutation.question.permutation;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import com.permutation.question.permutation.permutationjpa.Outputval;
+import com.permutation.question.permutation.permutationjpa.Permutation;
+import com.permutation.question.permutation.permutationjpa.PermutationJpaRepo;
+
+@Component
+<span class="fc" id="L15">public class Process {</span>
+	
+	@Autowired
+	PermutationJpaRepo permJpaRepo;
+	
+	public List&lt;Integer&gt; findPermutaionOfGivenInteger(Integer input) {		
+<span class="fc" id="L21">		boolean negativeNumber = false;</span>
+<span class="fc" id="L22">		List&lt;Integer&gt; result = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L23" title="All 2 branches covered.">		if (permJpaRepo.existsById(input)) {</span>
+<span class="fc" id="L24">			Permutation perm = permJpaRepo.findById(input).get();</span>
+<span class="fc" id="L25">			Set&lt;Outputval&gt; resultVal = perm.getPermval();</span>
+<span class="fc bfc" id="L26" title="All 2 branches covered.">			for (Outputval val : resultVal) {</span>
+<span class="fc" id="L27">				result.add(val.getCombination());</span>
+			}
+<span class="fc" id="L29">		} else {</span>
+<span class="fc bfc" id="L30" title="All 2 branches covered.">			if (input &lt; 0) {</span>
+<span class="fc" id="L31">				input = -input;</span>
+<span class="fc" id="L32">				negativeNumber = true;</span>
+			}
+<span class="fc" id="L34">			String strInput = Integer.toString(input);</span>
+<span class="fc" id="L35">			findPermutation(strInput, 0, strInput.length() - 1, result, negativeNumber);</span>
+<span class="fc" id="L36">			Permutation perm = new Permutation();</span>
+<span class="fc" id="L37">			perm.setInput(input);</span>
+<span class="fc" id="L38">			Set&lt;Outputval&gt; outputVallist = new HashSet&lt;&gt;();</span>
+<span class="fc bfc" id="L39" title="All 2 branches covered.">			for (Integer ip : result) {</span>
+<span class="fc" id="L40">				Outputval value = new Outputval();</span>
+<span class="fc" id="L41">				value.setCombination(ip);</span>
+<span class="fc" id="L42">				value.setPermutation(perm);</span>
+<span class="fc" id="L43">				outputVallist.add(value);</span>
+			}
+<span class="fc" id="L45">			perm.setPermval(outputVallist);</span>
+<span class="fc" id="L46">			permJpaRepo.save(perm);			</span>
+		}
+
+<span class="fc" id="L49">		return result;</span>
+	}
+
+	private void findPermutation(String strInput, int low, int high,List&lt;Integer&gt; result,boolean isNegativeNumber) {
+<span class="fc bfc" id="L53" title="All 2 branches covered.">		if (low == high) {</span>
+<span class="fc bfc" id="L54" title="All 2 branches covered.">			if (isNegativeNumber) {</span>
+<span class="fc" id="L55">				Integer num = Integer.parseInt(strInput);</span>
+<span class="fc" id="L56">				result.add(-num);</span>
+<span class="fc" id="L57">			} else {</span>
+<span class="fc" id="L58">				result.add(Integer.parseInt(strInput));</span>
+			}
+
+<span class="fc" id="L61">		} else {</span>
+<span class="fc bfc" id="L62" title="All 2 branches covered.">			for (int i = low; i &lt;= high; i++) {</span>
+<span class="fc" id="L63">				strInput = swap(strInput, low, i);</span>
+<span class="fc" id="L64">				findPermutation(strInput, low + 1, high, result, isNegativeNumber);</span>
+<span class="fc" id="L65">				strInput = swap(strInput, low, i);</span>
+			}
+		}		
+<span class="fc" id="L68">	}</span>
+
+	private String swap(String strInput, int low, int high) {
+		char temp; 
+<span class="fc" id="L72">        char[] charArray = getCharacterArrayOfString(strInput); </span>
+<span class="fc" id="L73">        temp = charArray[low] ; </span>
+<span class="fc" id="L74">        charArray[low] = charArray[high]; </span>
+<span class="fc" id="L75">        charArray[high] = temp; </span>
+<span class="fc" id="L76">        return String.valueOf(charArray); </span>
+	}
+
+	private char[] getCharacterArrayOfString(String strInput) {
+<span class="fc" id="L80">		int length = strInput.length();</span>
+<span class="fc" id="L81">		char[] charArr = new char[length];</span>
+<span class="fc bfc" id="L82" title="All 2 branches covered.">		for(int i=0; i&lt;length;i++) {			</span>
+<span class="fc" id="L83">			charArr[i] = strInput.charAt(i);</span>
+		}
+<span class="fc" id="L85">		return charArr;</span>
+	}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.1.201803210924</span>PermutationTestController (1) (Mar 18, 2020 5:57:41 PM)</div></body></html>
