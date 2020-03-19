@@ -47,10 +47,10 @@ Backend service which uses Spring boot framework and Inmemory database (h2) to f
   <li>Swagger api ui will run on localhost:8080/swwagger-ui.html</li>
   </ul>
   
-  Docker:  
+  <h2>Docker:</h2>  
   Steps to Deploy jar in docker and run (in linux)
   <ul>
-    <li>Install docker and docker compose<li>
+    <li>Install docker and docker compose</li>
     <li>Create the docker file -<sample docker file is uploaded above></li>
     <li>Create image using command docker build -t <imageName> in the directory where docker file is present</li>
     <li>Execute command docker-compose up, this will take images from docker.yml file and run all the images which is mentioned in that.Docker compose will run all the services paralley thereby reducing the effort to run each service seperately</li>
