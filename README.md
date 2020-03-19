@@ -52,7 +52,7 @@ Backend service which uses Spring boot framework and Inmemory database (h2) to f
   <ul>
     <li>Run mvn clean install and generate the jar for permutation service</li>
     <li>Install docker and docker compose</li>
-    <li>Create the docker file -<sample docker file is uploaded></li>
+    <li>Create the docker file -sample docker file is uploaded</li>
     <li>Create image using command docker build -t <imageName> in the directory where docker file is present</li>
     <li>Execute command docker-compose up, this will take images from docker.yml file and run all the images which is mentioned in that.Docker compose will run all the services paralley thereby reducing the effort to run each service seperately</li>
   <li>Once application is started, it can be accessed in the ip where docker is running</li>
